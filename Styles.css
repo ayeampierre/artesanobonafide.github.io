@@ -1,0 +1,179 @@
+@charset "utf-8";
+body {
+	background-color: #4202E3;
+	background-image: url(../Exercise%20Files/Assets/sparkly.webp);
+	color: #FFFFFF;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: "Lucida Console", Consolas, "Courier New", monospace, "Trebuchet MS", "Lucida Sans";
+	font-style: normal;
+	font-weight: 300;
+	font-size: small;
+	-webkit-box-shadow: 0px 0px;
+	box-shadow: 0px 0px;
+}
+header {
+	text-align: center;
+	margin-top: 70px;
+	margin-right: 70px;
+	margin-bottom: 70px;
+	margin-left: 70px;
+}
+body nav a {
+	color: #190255;
+	text-align: center;
+	text-decoration: none;
+}
+.navlist {
+	list-style-type: none;
+	background-color: #FFFFFF;
+	overflow-x: hidden;
+}
+.navlistitem {
+	float: left;
+	padding-top: 8px;
+	padding-right: 8px;
+	padding-bottom: 8px;
+	padding-left: 8px;
+}
+.navbar.navbar-expand-lg.navbar-light.bg-light {
+	text-align: left;
+	color: hsla(257,98%,45%,1.00);
+
+}
+
+.navbar-nav.mr-auto .nav-item .nav-link {
+	text-align: left;
+	color: hsla(257,95%,17%,1.00);
+}
+
+
+
+
+
+
+
+section {
+	background-color: #FEFEFE;
+	color: #270188;
+	border-radius: 10px;
+	width: 40%;
+	margin-left: 1%;
+	margin-right: 5%;
+	padding-left: 2%;
+	padding-top: 2%;
+	padding-right: 2%;
+	padding-bottom: 2%;
+	float: right;
+}
+
+h1  {
+	font-family: "Lucida Console";
+	color: #7893BB;
+	font-weight: 400;
+	font-size: 7em;
+	text-align: center;
+	float: none;
+}
+h2 {
+	font-weight: 700;
+	font-family: "Lucida Console";
+	font-size: 1.8em;
+}
+footer  {
+	font-family: "Trebuchet MS";
+	font-style: italic;
+	font-size: x-small;
+	text-align: center;
+	clear: both;
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(255,255,255,0.16) 0%,rgba(25,2,82,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(255,255,255,0.16) 0%,rgba(25,2,82,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(255,255,255,0.00) 0%,rgba(255,255,255,0.16) 0%,rgba(25,2,82,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(255,255,255,0.00) 0.00%,rgba(255,255,255,0.16) 0.00%,rgba(25,2,82,1.00) 100%);
+	height: 40px;
+	padding-top: 10px;
+}
+aside {
+	float: left;
+	width: 40%;
+	margin-left: 5%;
+	margin-right: 1%;
+	padding-left: 2%;
+	padding-top: 2%;
+	padding-right: 2%;
+	padding-bottom: 2%;
+}
+.navbar-nav.mr-auto .nav-item.active .nav-link {
+	color: hsla(257,95%,17%,1.00);
+	text-align: center;
+}
+.navbar.navbar-expand-lg.navbar-light.bg-light .navbar-brand {
+	color: hsla(257,95%,17%,1.00);
+}
+.navbar-nav.mr-auto .nav-item.active .nav-link {
+	text-align: left;
+}
+h3   {
+	color: hsla(257,95%,17%,1.00);
+}
+a {
+	color: hsla(257,98%,45%,1.00);
+}
+
+
+
+@media (max-width: 700px){
+aside {
+	float: none;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-left: 5%;
+	padding-top: 5%;
+	padding-right: 5%;
+	padding-bottom: 5%;
+	text-align: center;
+}
+section {
+	background-color: #FEFEFE;
+	color: #270188;
+	border-radius: 10px;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-left: 2.5%;
+	padding-top: 2.5%;
+	padding-right: 2.5%;
+	padding-bottom: 2.5%;
+	width: 90%;
+	float: none;
+}
+header {
+	text-align: center;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+h1 {
+	font-family: "Lucida Console";
+	color: #7893BB;
+	font-weight: 400;
+	font-size: 3em;
+	text-align: center;
+}
+
+}
+
+@media (max-height:500px){
+header {
+	text-align: center;
+	margin-top: -14px;
+	margin-right: -14px;
+	margin-bottom: -14px;
+	margin-left: -14px;
+}
+
+}
